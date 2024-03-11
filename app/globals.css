@@ -109,7 +109,7 @@ body {
 
 /* Footer */
 .footer {
-  @apply flex-col w-full gap-20 bg-light-tertiary text-white;
+  @apply flex-col w-full gap-20 bg-dark-blue-200 text-white;
 }
 
 .footer_copyright {
@@ -132,23 +132,6 @@ body {
 
 .modal_wrapper {
   @apply flex justify-start items-center flex-col absolute h-[95%] w-full bottom-0 bg-white rounded-t-3xl lg:px-40 px-8 pt-14 pb-72 overflow-auto;
-}
-
-/* Navbar */
-.navbar {
-  @apply px-8 border-b border-nav-border gap-4;
-}
-
-.navbar-links-color a {
- @apply text-sm font-medium text-white bg-light-logo hover:bg-light-logo-hover;
-}
-
-.navbar-links-round a {
- @apply rounded-full p-2;
-}
-
-.navbar-links-rounded a {
- @apply rounded-lg p-3;
 }
 
 /* Profile Menu */

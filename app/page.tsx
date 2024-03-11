@@ -1,16 +1,16 @@
-import React from 'react'
+import React from 'react';
 
 const Home = () => {
   return (
-    <section className='flex-start flex-col paddings bg-light-top'>
+    <section className='paddings'>
       <div>
         <h1 className='text-4xl font-bold mb-4'>Welcome to the home page</h1>
       </div>
       <div>
         <p className='text-lg'>This is a simple home page</p>
       </div>
-    </section >
-  )
-}
+    </section>
+  );
+};
 
-export default Home
+export default Home;

@@ -1,4 +1,4 @@
-import { LinksArrayInterface } from "@/common.types";
+import { LinksArrayInterface } from '@/common.types';
 
 export const footerLinks: LinksArrayInterface[] = [
   {
@@ -20,7 +20,7 @@ export const footerLinks: LinksArrayInterface[] = [
         href: '/friends',
         label: 'Find friends',
       },
-    ]
+    ],
   },
   {
     title: 'Created By',
@@ -37,8 +37,7 @@ export const footerLinks: LinksArrayInterface[] = [
         href: 'https://www.linkedin.com/in/huseyn-hajiyev-akif/',
         label: 'LinkedIn',
       },
-
-    ]
+    ],
   },
   {
     title: 'Other Projects',
@@ -59,6 +58,6 @@ export const footerLinks: LinksArrayInterface[] = [
         href: 'https://avf.az/en/home/',
         label: 'AVF - Azerbaijan Volleyball Federation',
       },
-    ]
-  }
-]
+    ],
+  },
+];

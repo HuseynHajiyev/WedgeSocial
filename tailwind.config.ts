@@ -15,10 +15,10 @@ module.exports = {
         'light-white-300': '#F3F3F4',
         'light-white-400': '#E2E5F1',
         'light-white-500': '#E4E4E4',
-        'light-top': '#F9F7F7',
-        'light-primary': '#DBE2EF',
-        'light-secondary': '#3F72AF',
-        'light-tertiary': '#112D4E',
+        'dark-blue-800': '#070F2B',
+        'dark-blue-600': '#1B1A55',
+        'dark-blue- 400': '#535C91',
+        'dark-blue-200': '#9290C3',
         'light-logo': '#0074D9',
         'light-logo-hover': '#55A2E5',
         gray: '#4D4A4A',
@@ -26,9 +26,7 @@ module.exports = {
         'black-100': '#252525',
         'primary-purple': '#9747FF',
         'gray-50': '#D9D9D9',
-        day: {
-          
-        }
+        day: {},
       },
       fonts: {
         shrikhand: ['Shrikhand', 'cursive'],
@@ -37,11 +35,11 @@ module.exports = {
         menu: '0px 159px 95px rgba(13,12,34,0.01), 0px 71px 71px rgba(13,12,34,0.02), 0px 18px 39px rgba(13,12,34,0.02), 0px 0px 0px rgba(13,12,34,0.02)',
       },
       screens: {
-        'xs': '400px',
+        xs: '400px',
       },
       maxWidth: {
-        '10xl': '1680px'
-      }
+        '10xl': '1680px',
+      },
     },
   },
   plugins: [],
