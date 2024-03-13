@@ -2,11 +2,16 @@
 module.exports = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './public/**/*.html',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
     extend: {
+      gridTemplateRows: {
+        'animate-height-open': '1fr',
+        'animate-height-closed': '0fr',
+      },
       colors: {
         'nav-border': '#EBEAEA',
         'light-white': '#FAFAFB',
@@ -42,5 +47,4 @@ module.exports = {
       },
     },
   },
-  plugins: [],
 };

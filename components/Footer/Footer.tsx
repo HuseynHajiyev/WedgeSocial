@@ -31,7 +31,7 @@ const FooterColumn = ({ title, links }: LinksArrayInterface) => {
 
 const Footer = () => {
   return (
-    <footer className='flexStart footer fixed bottom-0'>
+    <footer className='flexStart footer'>
       <div className='flex gap-20 w-full py-4 px-8'>
         <div className='flex items-start flex-col'>
           <Image src={'/logo-invert.svg'} alt='Wedge' width={90} height={90} />

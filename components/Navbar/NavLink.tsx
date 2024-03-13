@@ -27,7 +27,7 @@ const NavLink = ({ href, children }: NavLinkProps) => {
 
   return (
     <div
-      className={`relative w-[130px] ${isActive ? activeClasses : defaultClasses}`}
+      className={`relative xl:w-[130px] w-[60px] cursor-pointer	${isActive ? activeClasses : defaultClasses}`}
     >
       <Link className=' flex justify-center has-tooltip p-3' href={href}>
         <span className='tooltip'>{hrefToText(href)}</span>

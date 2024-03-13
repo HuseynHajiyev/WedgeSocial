@@ -8,7 +8,7 @@ interface PopoverProps {
 
 const PopoverButton = ({ href, children }: PopoverProps) => {
   return (
-    <div className=' relative flex items-center h-fit w-fit rounded-full p-2 dark:bg-light-logo hover:dark:bg-light-logo-hover has-tooltip'>
+    <div className=' relative flex items-center h-fit w-fit rounded-full p-2 dark:bg-light-logo hover:dark:bg-light-logo-hover has-tooltip cursor-pointer'>
       <span className='tooltip'>{hrefToText(href)}</span>
       {children}
     </div>

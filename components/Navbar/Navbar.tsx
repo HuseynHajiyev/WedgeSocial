@@ -20,15 +20,15 @@ const Navbar = () => {
   const session = true;
 
   return (
-    <nav className='flexBetween navbar dark:bg-dark-blue-600 sticky top-0'>
+    <nav className='flexBetween navbar paddingsX dark:bg-dark-blue-600 sticky top-0'>
       {/* {Left Side} */}
-      <div className='flex space-x-4'>
+      <div className='flex xl:space-x-4 space-x-2'>
         <div>
           <Link href='/'>
             <Image src='/logo.svg' alt='Wedge' width={50} height={50} />
           </Link>
         </div>
-        <div className='md:flex hidden items-center'>
+        <div className='lg:flex hidden items-center'>
           <form>
             <label className='mb-2 text-sm font-medium dark:text-light-white-200 sr-only dark:text-white'>
               Search
@@ -44,9 +44,9 @@ const Navbar = () => {
                 >
                   <path
                     stroke='currentColor'
-                    stroke-linecap='round'
-                    stroke-linejoin='round'
-                    stroke-width='2'
+                    strokeLinecap='round'
+                    strokeLinejoin='round'
+                    strokeWidth='2'
                     d='m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z'
                   />
                 </svg>
@@ -61,7 +61,7 @@ const Navbar = () => {
             </div>
           </form>
         </div>
-        <div className='md:hidden blockinset-y-0 start-0 flex items-center ps-3 pointer-events-none'>
+        <div className='lg:hidden blockinset-y-0 start-0 flex items-center ps-3 pointer-events-none'>
           <PopoverButton href='/search'>
             <TbSearch size={25} />
           </PopoverButton>
@@ -69,18 +69,18 @@ const Navbar = () => {
       </div>
       {/* {End Left Side} */}
       {/* {Center} */}
-      <div className='md:flex hidden justify-center items-center space-x-4'>
+      <div className='lg:flex hidden justify-center items-center lg:space-x-4'>
         <NavLink href='/'>
-          <MdHomeFilled size={30} />
+          <MdHomeFilled size={25} />
         </NavLink>
         <NavLink href='/watch'>
-          <LuMonitorPlay size={30} />
+          <LuMonitorPlay size={25} />
         </NavLink>
         <NavLink href='/marketplace'>
-          <CiShop className='stroke-1' size={30} />
+          <CiShop className='stroke-1' size={25} />
         </NavLink>
         <NavLink href='/gaming'>
-          <RiGamepadLine size={30} />
+          <RiGamepadLine size={25} />
         </NavLink>
       </div>
       {/* {End Center} */}
@@ -98,7 +98,7 @@ const Navbar = () => {
             <PopoverButton href='/notifications'>
               <FaRegBell size={25} />
             </PopoverButton>
-            <div className='w-25 h-25 relative has-tooltip'>
+            <div className='w-25 h-25 relative has-tooltip cursor-pointer	'>
               <span className='tooltip'>Profile</span>
               <div className='rounded-full w-full h-full absolute hover:bg-zinc-300 hover:bg-opacity-25' />
               <Image

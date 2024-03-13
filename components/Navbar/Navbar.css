@@ -1,7 +1,7 @@
 
 /* Navbar */
 .navbar {
-  @apply px-8 border-b-[1px]	 border-zinc-500 text-sm font-medium;
+  @apply border-b-[1px]	 border-zinc-500 text-sm font-medium;
 }
 
 
